@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+
+nav a{
+    text-decoration-skip-ink: none;
+}
+
+a:hover{
+    color:cornflowerblue; 
+    font-weight: bold;
+}
+
+a:hover::after {
+  content: " 🔗";
+}  
+
+p::first-line {
+    font-weight: bold;
+}
+
+main {
+    display: flex;
+    margin: 40px;
+    gap: 20px;
+
+}
+
+#content{
+    /* flex 3 artinya pembagian luasnya 75% */
+    flex: 3;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+aside {
+    flex: 1;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+body > header{
+    background-color: rgb(22, 132, 184);
+    color: white;
+    padding-top: 30px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+     padding-top: 40px;  
+}
+
+header p {
+    text-align: center;
+    color: white;
+    padding-bottom: 40px;
+}
+
+nav  {
+    background-color: brown;
+    padding: 20px;
+}
+
+nav li, a { 
+    color: black;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    padding: 10px;
+}
+
+section h3 {
+    text-align: center;
+    color: black;
+    padding-bottom: 40px;
+}
+
+table tr {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+
+header h2 {
+    text-align: center;
+    color: black;
+    padding-top: 40px;
+}
+
+figcaption {
+    text-align: center;
+}
+
+figure {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
+ section {
+    margin: 20px;
+ }
+
+ div h2{
+    padding: 10px;
+ }
+
+ div p{
+    text-align: justify;
+    padding: 10px;
+ }
+
+ div img {
+    padding: 10px;
+ }
+ 
